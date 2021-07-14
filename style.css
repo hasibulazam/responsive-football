@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+ /*------------------------------------------------------------------------ 
+                            common utilities 
+----------------------------------------------------------------------------*/
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size:64px;
+    font-weight:700;
+    color:#FFFFFF;
+}
+ /*-------------------------------------------------------------- 
+                      copa america 
+----------------------------------------------------------------*/
+.first-background{
+    background-color: #2D25A0;
+
+}
+.flexible-container{
+    display:flex;
+}
+.half-width{
+    width:50%;
+}
+.conmebol{
+    padding-left:156px;
+    padding-top:240px;
+    padding-bottom:207px;
+    line-height:24px;
+}
+.conmebol a{
+    text-decoration:none;
+    background-color:#E02C6D;
+    padding:10px 24px;
+    color:#FFFFFF;
+}
+.conmebol a:hover{
+    background-color:blue;
+    border:2px solid red;
+}
+.half-width img{
+    width:556px;
+    height:438px;
+    margin-top:150px;
+}
+.half-width img:hover{
+    transform:scale(1.5);
+    transition:transform 2s ease-in-out;
+}
